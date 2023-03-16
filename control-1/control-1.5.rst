@@ -25,7 +25,7 @@ Inputs
 
 Operations
 ----------
-#. Identify approved configuratons for passive asset discovery tools using :code:`GV3`
+#. Identify approved configurations for passive asset discovery tools using :code:`GV3`
 #. For each passive asset discovery tool provided in Input 2, check the tool's configuration against the appropriate approved configuration from :code:`GV3`
 	#. Enumerate those tools that are properly configured (M1)
 	#. Enumerate those tools that are improperly configured (M2) noting the deviations from proper configuration
