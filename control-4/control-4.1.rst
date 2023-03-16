@@ -19,13 +19,13 @@ Dependencies
 Inputs
 ------
 #. :code:`GV2`: Authorized software inventory
-#. :code:`GV1`: Enterprise asse inventory
-#. :code:`GV3`: Configuration Standard: this should include any enterprise approved deviations from industry standard baselines  such as CIS benchmarks, DISA Security Technical Implementation Guides (STIGs), or U.S. government configuration baselines (USGCB).
-#. Date of last review and updat of configuration standard
+#. :code:`GV1`: Enterprise asset inventory
+#. :code:`GV3`: Configuration Standard: this should include any enterprise approved deviations from industry standard baselines such as CIS benchmarks, DISA Security Technical Implementation Guides (STIGs), or U.S. government configuration baselines (USGCB).
+#. Date of last review and update of configuration standard
 
 Operations
 ----------
-#. Identify whether Input 2 exists
+#. Identify whether :code:`GV1`: exists
 	#. If it exists M1 = 1
 	#. If it does not exist M1 = 0
 #. Identify and enumerate end-user devices, including portable and mobile, non-computing/IoT devices, and servers in :code:`GV1` (M2)
@@ -39,7 +39,7 @@ Measures
 --------
 * M1 = Output of Operation 1
 * M2 = Count of applicable enterprise assets 
-* M3 = Count of software insalled on applicable enterprise assets
+* M3 = Count of software installed on applicable enterprise assets
 * M4 = Count of software that is listed in the configuration standard
 * M5 = Count of software that is not listed in the configuration standard
 * M6 = Timeframe since last review and update in months
@@ -54,7 +54,7 @@ Standard Configuration Coverage
 .. list-table::
 
 	* - **Metric**
-	  - | The perecentage of authorized software  with secure configuration standards documented
+	  - | The percentage of authorized software  with secure configuration standards documented
 	  - | and maintained.
 	* - **Calculation**
 	  - :code:`M4 / M3`
